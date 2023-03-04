@@ -13,16 +13,16 @@ for i in range(1, 1000):
         smallest = i
     elif len(s[i]) == len(s[smallest]):
         for j in range(len(s[i])):
-            if s[i][j] != s[smallest][j] and s[i][j] == '0':
-                smallest = i
+            if s[i][j] != s[smallest][j]:
+                if s[i][j] == '0': smallest = i
                 break
 
     if len(s[i]) > len(s[biggest]):
         biggest = i
     elif len(s[i]) == len(s[biggest]):
         for j in range(len(s[i])):
-            if s[i][j] != s[biggest][j] and s[i][j] == '1':
-                biggest = i
+            if s[i][j] != s[biggest][j]:
+                if s[i][j] == '1': biggest = i
                 break
 
 print(smallest + 1, biggest + 1)
