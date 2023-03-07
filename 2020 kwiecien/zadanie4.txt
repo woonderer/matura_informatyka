@@ -1,0 +1,14 @@
+4.1.
+Największa: 1056392131
+Najemniejsza: 1
+
+4.2.
+Długość: 17
+Wartość na początku: 193134524
+Wartość na końcu: 223545714
+
+4.3.
+Krotność najczęstszej luki: 31
+Wartości najczęstszych luk:
+11
+149
