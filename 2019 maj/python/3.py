@@ -1,6 +1,7 @@
 with open("liczby.txt", "r") as f:
     liczby = list(map(int, f.read().strip().split('\n')))
 
+# Zamiast własnej funkcji można użyć funkcji gcd z biblioteki math
 def nwd(a, b):
     if b == 0:
         return a
